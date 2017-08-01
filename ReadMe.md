@@ -59,7 +59,7 @@ INCLUDEPATH += $$PWD/avro/include
 DEPENDPATH += $$PWD/avro/include
 
 ```
-* Qt测试demo可参考[github](https://github.com/toby20130333)
+* Qt测试demo可参考[github](https://github.com/toby20130333/QtAvro.git)
 
 ### 贡献
 

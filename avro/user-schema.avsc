@@ -1,0 +1,53 @@
+[ "null", {
+  "type" : "record",
+  "name" : "User",
+  "namespace" : "org.dean.po",
+  "fields" : [ {
+    "name" : "age",
+    "type" : [ "null", "int" ],
+    "default" : null
+  }, {
+    "name" : "name",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "facilities",
+    "type" : [ "null", {
+      "type" : "map",
+      "values" : [ "null", {
+        "type" : "record",
+        "name" : "Facility",
+        "fields" : [ {
+          "name" : "name",
+          "type" : [ "null", "string" ],
+          "default" : null
+        }, {
+          "name" : "cost",
+          "type" : [ "null", "float" ],
+          "default" : null
+        }, {
+          "name" : "returnedDate",
+          "type" : [ "null", "string" ],
+          "default" : null
+        }, {
+          "name" : "whatevers",
+          "type" : [ "null", {
+            "type" : "array",
+            "items" : [ "null", {
+              "type" : "record",
+              "name" : "Whatever",
+              "fields" : [ {
+                "name" : "name",
+                "type" : [ "null", "string" ],
+                "default" : null
+              } ]
+            } ],
+            "java-class" : "java.util.List"
+          } ],
+          "default" : null
+        } ]
+      } ]
+    } ],
+    "default" : null
+  } ]
+} ]

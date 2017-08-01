@@ -1,0 +1,8 @@
+{
+    "type": "record", 
+    "name": "demo",
+    "fields" : [
+        {"name": "myid", "type" : "double"},
+		{"name": "mysales", "type" : "int"}
+    ]
+}
